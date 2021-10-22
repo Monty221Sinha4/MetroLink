@@ -11,6 +11,16 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
+    <div class="row">
+        <div class="col-md-6">
+            <nav style="color:blue">
+                @Html.ActionLink("Home", "Home", "Home")
+                @Html.ActionLink("Check Time Table", "TimeTable", "Home")
+                @Html.ActionLink("About Us", "AboutUs", "Home")
+                @Html.ActionLink("Contact Us", "Contact", "Home")
+            </nav>
+        </div>
+    </div>
     <div>
         @RenderBody()
     </div>
