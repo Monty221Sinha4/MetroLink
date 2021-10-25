@@ -161,6 +161,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StationPlatformsController.cs" />
     <Compile Include="Controllers\StationsController.cs" />
+    <Compile Include="Controllers\TimeStatusController.cs" />
+    <Compile Include="Controllers\TrainTimeTablesController.cs" />
     <Compile Include="DataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -236,6 +238,16 @@
     <Content Include="Views\StationPlatforms\Details.cshtml" />
     <Content Include="Views\StationPlatforms\Edit.cshtml" />
     <Content Include="Views\StationPlatforms\Index.cshtml" />
+    <Content Include="Views\TimeStatus\Create.cshtml" />
+    <Content Include="Views\TimeStatus\Delete.cshtml" />
+    <Content Include="Views\TimeStatus\Details.cshtml" />
+    <Content Include="Views\TimeStatus\Edit.cshtml" />
+    <Content Include="Views\TimeStatus\Index.cshtml" />
+    <Content Include="Views\TrainTimeTables\Create.cshtml" />
+    <Content Include="Views\TrainTimeTables\Delete.cshtml" />
+    <Content Include="Views\TrainTimeTables\Details.cshtml" />
+    <Content Include="Views\TrainTimeTables\Edit.cshtml" />
+    <Content Include="Views\TrainTimeTables\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
