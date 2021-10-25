@@ -124,6 +124,9 @@
       <LastGenOutput>DataModel.cs</LastGenOutput>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Photos\AS.jfif" />
+    <Content Include="Photos\la w.jpg" />
+    <Content Include="Photos\Spy 1.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -248,6 +251,7 @@
     <Content Include="Views\TrainTimeTables\Details.cshtml" />
     <Content Include="Views\TrainTimeTables\Edit.cshtml" />
     <Content Include="Views\TrainTimeTables\Index.cshtml" />
+    <Content Include="Views\Home\Home.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -259,8 +263,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="File\" />
     <Folder Include="Models\" />
-    <Folder Include="Photos\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
